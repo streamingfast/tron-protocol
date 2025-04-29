@@ -1,0 +1,9 @@
+version: v2
+modules:
+  - path: .
+    name: buf.build/streamingfast/tron-protocol
+deps:
+  - buf.build/googleapis/googleapis
+breaking:
+  use:
+    - FILE
